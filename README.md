@@ -2,7 +2,12 @@
 
 A Python, PostgreSQL and Power BI pipeline that measures a Canadian equity portfolio against the S&P/TSX 60, explains the difference with Brinson attribution, and estimates downside risk with Value at Risk, expected shortfall, backtesting and historical stress tests. Automated data quality checks reconcile every result end to end.
 
-![Performance page](docs/screenshots/performance.png)
+![Performance page](docs/screenshots/Performance.png)
+![Exposure page](docs/screenshots/Exposure.png)
+![Exposure page](docs/screenshots/Risk.png)
+*Please see Power BI for the rest
+
+![Entire Power BI (Please request the link if you are not a uwwaterloo student)](https://uofwaterloo-my.sharepoint.com/:u:/r/personal/ijehad_uwaterloo_ca/Documents/PowerBI/Sample%20Portfolio%20Dashboard.pbix?d=wfb18088c3fd543f9962b1385f32bbda5&csf=1&web=1&e=W0jZMN)
 
 ## Key results (12 months to October 16, 2026)
 
