@@ -103,8 +103,8 @@ WINDOW w AS (ORDER BY price_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT RO
 -- 7. One-row summary of the whole period
 CREATE VIEW v_performance_summary AS
 WITH params AS (
-    -- PLACEHOLDER: replace with the average Bank of Canada 3-month T-bill yield over your period
-    SELECT 0.025::float8 AS risk_free_rate
+    -- Approximate average Bank of Canada 3-month T-bill yield, Oct 2025 - Oct 2026 (about 2.2 to 2.4 percent)
+    SELECT 0.023::float8 AS risk_free_rate
 ), d AS (
     SELECT * FROM v_performance_daily WHERE port_return IS NOT NULL
 ), agg AS (

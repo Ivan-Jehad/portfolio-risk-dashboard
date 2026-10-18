@@ -7,6 +7,7 @@ STEPS = [
     ["src/run_sql.py", "sql/02_performance.sql"],
     ["src/run_sql.py", "sql/03_attribution.sql"],
     ["src/risk.py"],
+    ["src/dq.py"]
 ]
 
 for step in STEPS:
